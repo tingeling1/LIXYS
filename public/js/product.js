@@ -10,7 +10,7 @@ while (i < produkter.length) {
         // lägg till innuti diven
         div.innerHTML = `
             <div class="image-container">
-                <img src="/public/images/${produkter[i].bild}" alt="product3">
+                <img src="public/images/${produkter[i].bild}" alt="product3">
             </div>
             <div class="produkt-text">
                 <p class="produkt-name">${produkter[i].namn}</p>
